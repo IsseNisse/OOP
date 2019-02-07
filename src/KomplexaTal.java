@@ -14,8 +14,11 @@ public class KomplexaTal {
         return z3;
     }
 
-    public KomplexaTal multiply(KomplexaTal) {
-        double a = this.a
+    public KomplexaTal multiply(KomplexaTal z2) {
+        double a = this.a * z2.a;
+        double b = this.b * z2.b;
+        KomplexaTal z4 = new KomplexaTal(a,b);
+        return z4;
     }
 
         public String toString() {
