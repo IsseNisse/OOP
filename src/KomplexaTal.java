@@ -23,6 +23,12 @@ public class KomplexaTal {
         return z3;
     }
 
+    public double args() {
+        double a = this.b / this.a;
+        double v = Math.atan(a);
+        return v;
+    }
+
         public String toString() {
             return this.a + " + " + this.b + "i";
         }
