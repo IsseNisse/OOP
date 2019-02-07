@@ -15,7 +15,7 @@ public class KomplexaTal {
     }
 
     public KomplexaTal multiply(KomplexaTal) {
-
+        double a = this.a
     }
 
         public String toString() {
