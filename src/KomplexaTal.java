@@ -29,6 +29,14 @@ public class KomplexaTal {
         return v;
     }
 
+    public boolean equals(KomplexaTal z2) {
+        if (this.a == z2.a && this.b == z2.b) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
         public String toString() {
             return this.a + " + " + this.b + "i";
         }

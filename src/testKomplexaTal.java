@@ -6,6 +6,11 @@ public class testKomplexaTal {
         KomplexaTal z4 = z1.multiply(z2);
         double v = z1.args();
 
-        System.out.println(v);
+        if (z1.equals(z2)) {
+            System.out.println("lika");
+        } else {
+            System.out.println("olika");
+        }
+        System.out.println(z1);
     }
 }
